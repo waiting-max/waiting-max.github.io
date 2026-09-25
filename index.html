@@ -1,0 +1,97 @@
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal homepage of waiting-max. Learning, building, and sharing along the way.">
+  <title>waiting-max | Personal Homepage</title>
+  <meta name="description" content="Li Yihan, a student in the Department of Probability and Statistics, School of Mathematical Sciences, University of Science and Technology of China. Education, coursework, research project, and contact information.">
+  <title>Li Yihan | USTC</title>
+  <style>
+    .about-copy { max-width: 680px; color: var(--muted); }
+    .tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .tag { padding: 5px 14px; border: 1px solid var(--border); border-radius: 30px; font-size: 13px; }
+    .projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    .courses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 32px; padding-left: 22px; color: var(--muted); }
+    .courses li::marker { color: var(--accent); }
+    .projects { display: grid; grid-template-columns: 1fr; gap: 20px; }
+    .card { padding: 28px; border: 1px solid var(--border); border-radius: 14px; background: #fff; }
+    .card p { color: var(--muted); }
+    .status { font-size: 13px; color: var(--muted); }
+    .award { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+    .award h3 { margin: 0; }
+    .award p { margin: 0; color: var(--muted); }
+    address { font-style: normal; }
+    .contact-list { margin: 0; }
+    .contact-list div { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 16px; padding: 10px 0; }
+    .contact-list dt { color: var(--muted); }
+    .contact-list dd { margin: 0; overflow-wrap: anywhere; }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+      .hero { padding: 60px 0; }
+      .projects { grid-template-columns: 1fr; }
+      .courses { grid-template-columns: 1fr; }
+    }
+    <header>
+      <!-- Replace waiting-max with your name or username. -->
+      <a class="brand" href="#">waiting-max.</a>
+      <a class="brand" href="#">Li Yihan</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#coursework">Coursework</a>
+        <a href="#projects">Projects</a>
+        <a href="#honors">Honors</a>
+        <a href="#contact">Contact</a>
+      <div class="hero">
+        <p class="eyebrow">A little corner of the internet</p>
+        <h1>Hi, I'm <span>waiting-max.</span><br>Welcome to my homepage.</h1>
+        <!-- Edit this introduction to tell visitors about yourself. -->
+        <p class="intro">Learning new things, building small projects, and sharing what I discover along the way.</p>
+        <a class="button" href="#projects">Explore my projects &rarr;</a>
+        <p class="eyebrow">Mathematics &middot; Probability &middot; Statistics</p>
+        <h1>Hi, I'm <span>Li Yihan.</span></h1>
+        <p class="intro">A student at the University of Science and Technology of China (USTC), studying in the Department of Probability and Statistics, School of Mathematical Sciences.</p>
+        <a class="button" href="#projects">View my research project &rarr;</a>
+      </div>
+      <section id="about" aria-labelledby="about-title">
+        <p class="eyebrow">01 / A short introduction</p>
+        <p class="eyebrow">01 / Education</p>
+        <h2 id="about-title">About me</h2>
+        <div class="about-copy">
+          <p>I'm exploring the world of web development, starting with HTML, CSS, Git, and GitHub. This website is my space to practice, experiment, and document my progress.</p>
+          <p>I believe that small steps lead to meaningful progress. Right now, I'm taking it one project at a time.</p>
+        </div>
+        <div class="tags" aria-label="Currently learning">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Git &amp; GitHub</span>
+          <p>I am currently a student in the Department of Probability and Statistics within the School of Mathematical Sciences at the University of Science and Technology of China.</p>
+          <p>My coursework spans mathematical analysis, probability, statistics, optimization, and the mathematical foundations of artificial intelligence.</p>
+        </div>
+
+      <section id="coursework" aria-labelledby="coursework-title">
+        <p class="eyebrow">02 / Academic background</p>
+        <h2 id="coursework-title">Core coursework</h2>
+        <ul class="courses">
+          <li>Mathematical Analysis</li>
+          <li>Linear Algebra</li>
+          <li>Real Analysis</li>
+          <li>Probability Theory</li>
+          <li>Advanced Probability Theory</li>
+          <li>Mathematical Statistics</li>
+          <li>Operations Research</li>
+          <li>Mathematical Principles and Algorithms of Artificial Intelligence</li>
+        </ul>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-title">
+        <p class="eyebrow">02 / Learning by doing</p>
+        <h2 id="projects-title">My projects</h2>
+        <!-- Replace these cards with your own projects as you build them. -->
+        <p class="eyebrow">03 / Research</p>
+        <h2 id="projects-title">Research project</h2>
+        <div class="projects">
+            <span class="card-number">PROJECT 01</span>
+            <h3>My personal homepage</h3>
+            <p>The page you're visiting right now. A simple website built with HTML and CSS to introduce myself and share my work.</p>
+            <a href="https://github.com/waiting-max/waiting-max.github.io">View repository &rarr;</a>
+            <h3>Minimax Regret for Episodic Continuous-Time Markov Decision Processes with Stochastic Rewards and Sojourn-Level Feedback</h3>
+          </article>
+          <article class="card">
+            <span class="card-number">WHAT'S NEXT</span>
